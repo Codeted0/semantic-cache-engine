@@ -1,0 +1,13 @@
+# --- IGNORE FOR EVERYONE (Backend & Frontend) ---
+node_modules/
+.env
+.DS_Store
+*.log
+
+# --- SPECIFIC TO FRONTEND ---
+# This ignores the build folder Vite creates
+client/dist/
+client/.env
+
+# --- SPECIFIC TO IDE ---
+.vscode/
