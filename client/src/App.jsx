@@ -18,7 +18,7 @@ function App() {
     const start = Date.now();
 
     try {
-      const res = await fetch('http://localhost:3000/ask', {
+      const res = await fetch('https://semantic-backend-gk7q.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question: query })
